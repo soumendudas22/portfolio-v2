@@ -64,7 +64,7 @@ export default function Section1() {
           I am <span className='highlight-text'>SOUMENDU DAS.</span>
           &nbsp;Passionate and creative <span className='highlight-text'>full-stack software engineer</span> based in <span className='highlight-text'>India.</span>
 
-          I consider myself a <span className='highlight-text'>curious</span> and <span className='highlight-text'>inquisitive</span> person, so on my spare time I like to work on side projects and try to constantly learn something new to <span className='highlight-text'>improve</span> my skillset.
+          I consider myself a <span className='highlight-text'>curious</span> and <span className='highlight-text'>inquisitive</span> person, so in my spare time I like to work on side projects and try to constantly learn something new to <span className='highlight-text'>improve</span> my skillset.
         </div>
       </div>
     </div>
