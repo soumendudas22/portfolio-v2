@@ -1,0 +1,24 @@
+@owner = soumendudas22
+
+@twitterID = 22610496
+
+GET https://api.github.com
+
+###
+
+GET  https://api.github.com/repos/{{owner}}/foldr
+
+###
+GET https://api.github.com/users/soumendudas22/repos
+
+###
+GET https://gh-pinned-repos-5l2i19um3.vercel.app/?username={{owner}}
+
+###
+GET https://api.twitter.com/2/users/{{twitterID}}/tweets
+
+###
+
+GET https://api.twitter.com/2/users/by/username/soumendudas2208
+
+Authorization: "Bearer AAAAAAAAAAAAAAAAAAAAAEACWQEAAAAAWnZ3sKZ9Si3NC3j4rE7UOL5f6rg%3DltFabskghD8h7FstUDXiBuObuwUpWTWtEZNL7ZxXDP5P1RAVvH"
