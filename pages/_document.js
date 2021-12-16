@@ -13,6 +13,9 @@ class MyDocument extends Document {
           <meta property="og:title" content="Portfolio" />
           <meta property="og:description" content="I am SOUMENDU DAS. Passionate and creative full-stack software engineer based in India. I consider myself a curious and inquisitive person, so in my spare time I like to work on side projects and try to constantly learn something new to improve my skillset." />
           <meta property="og:image" itemProp="image" content="https://i.ibb.co/8Pm7LxS/Capture.png" />
+          <meta property="og:image:width" itemProp="image" content="400" />
+          <meta property="og:image:height" itemProp="image" content="250" />
+          <meta property="og:url" content="https://portfolio-v2-soumendudas22.vercel.app/" />
           <meta property="og:type" content="website" />
         </Head>
         <body>
