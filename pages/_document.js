@@ -15,7 +15,7 @@ class MyDocument extends Document {
           <meta property="og:image" itemProp="image" content="https://i.ibb.co/8Pm7LxS/Capture.png" />
           <meta property="og:image:width" itemProp="image" content="400" />
           <meta property="og:image:height" itemProp="image" content="250" />
-          <meta property="og:url" content="https://portfolio-v2-soumendudas22.vercel.app/" />
+          <meta property="og:url" content="https://sddev.vercel.app" />
           <meta property="og:type" content="website" />
         </Head>
         <body>
