@@ -9,7 +9,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap" />
-          <meta property="og:site_name" content="Soumendu Das' Portfolio" />
+          <meta property="og:site_name" content="Portfolio website" />
           <meta property="og:title" content="Soumendu Das' Portfolio" />
           <meta property="og:description" content="I am SOUMENDU DAS. Passionate and creative full-stack software engineer based in India. I consider myself a curious and inquisitive person, so in my spare time I like to work on side projects and try to constantly learn something new to improve my skillset." />
           <meta property="og:image" itemProp="image" content="https://i.ibb.co/8Pm7LxS/Capture.png" />
