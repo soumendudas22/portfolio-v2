@@ -55,7 +55,7 @@ export default function Section1() {
                 x: mousePosition.x,
                 y: mousePosition.y
               }}></motion.div>
-            <Image src={'/dp-min.png'} alt='Profile Picture of Soumendu Das.' width={200} height={200} className="profile-pic" />
+            <Image src={'/dp-min.png'} alt='Profile Picture of Soumendu Das.' width={200} height={200} className="profile-pic" quality={50}/>
           </motion.div>
         </div>
       </div>
