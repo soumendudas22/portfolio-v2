@@ -12,6 +12,7 @@
   --primary-danger: #ffaeae;
   --primary-warning: #ffec94;
   --primary-success: #b0e57c;
+  --demo: #222222;
 }
 
 html,
@@ -253,6 +254,17 @@ a {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-right: 10px;
+}
+
+.resume-btn {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 7px;
 }
 
 /* ------------SECTION-3------------ */

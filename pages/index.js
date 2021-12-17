@@ -3,8 +3,13 @@ import Section1 from '../components/Sections/Section1';
 import Section2 from '../components/Sections/Section2';
 import Section3 from '../components/Sections/Section3';
 import Section4 from '../components/Sections/Section4';
+import { motion } from "framer-motion";
 
 export default function Home({ data }) {
+
+  const downloadResume = () => {
+    window.location.href = window.location.href + "/resume.pdf"
+  }
 
   return (
     <>
@@ -16,6 +21,18 @@ export default function Home({ data }) {
       <div className="sections-wrapper">
         <Section1 />
         <Section2 />
+        <motion.button 
+          className="resume-btn wrapper-box" 
+          whileHover={{
+            backgroundColor: '#222222',
+          }} 
+          whileTap={{
+            scale: 0.9,
+          }}
+          onClick={downloadResume}
+        >
+          <div className="nav-title">Download resume</div>
+        </motion.button>
         <div className="divider"></div>
         <Section3 />
         <div className="divider"></div>

@@ -43,8 +43,8 @@ const btn = {
 const links = [
   { name: "Home", to: "/", id: 1 },
   { name: "About", to: "/about", id: 2 },
-  { name: "Twitter", to: "https://twitter.com/soumendudas2208", id: 3 },
-  { name: "Github", to: "https://github.com/soumendudas22", id: 4 }
+  { name: "Twitter", to: "https://twitter.com/soumendudas2208", id: 4 },
+  { name: "Github", to: "https://github.com/soumendudas22", id: 5 }
 ];
 
 export default function Sidebar({ hideSidebar }) {
